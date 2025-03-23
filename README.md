@@ -7,3 +7,5 @@ I plan to clean this up someday and host it on some cloud server so I can use up
 To use this script, first you need java, perl and python installed.\
 Then you can install pythons requirements using `pip install -r requirements.txt`.\
 To run the script, use `python ./pdf2rmdoc.py <YOUR-PDF>.pdf`. You should see files being created and removed from the working directory, these are the split pages. The result `.rmdoc` file will be named like the input file, only with `.rmdoc` extension of course.
+
+You can sync the resulting `.rmdoc` files with the remarkable tablet like any other document, through the app or api or usb...
